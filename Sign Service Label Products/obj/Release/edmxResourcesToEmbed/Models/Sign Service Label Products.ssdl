@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="g4g_signservicelabelproducts_comModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="admin_users">
+    <Key>
+      <PropertyRef Name="admin_user_id" />
+    </Key>
+    <Property Name="admin_user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="admin_username" Type="varchar" MaxLength="50" />
+    <Property Name="admin_password" Type="varchar" MaxLength="100" />
+    <Property Name="admin_salt" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="public_users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="contact_name" Type="varchar" MaxLength="100" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="company_name" Type="varchar" MaxLength="50" />
+    <Property Name="phone" Type="varchar" MaxLength="15" />
+    <Property Name="fax" Type="varchar" MaxLength="15" />
+    <Property Name="address_line_1" Type="varchar" MaxLength="100" />
+    <Property Name="address_line_2" Type="varchar" MaxLength="100" />
+    <Property Name="city" Type="varchar" MaxLength="20" />
+    <Property Name="state_province" Type="varchar" MaxLength="20" />
+    <Property Name="zip_postal" Type="varchar" MaxLength="20" />
+    <Property Name="password" Type="varchar" MaxLength="100" />
+    <Property Name="salt" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="g4g_signservicelabelproducts_comModelStoreContainer">
+    <EntitySet Name="admin_users" EntityType="Self.admin_users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="public_users" EntityType="Self.public_users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

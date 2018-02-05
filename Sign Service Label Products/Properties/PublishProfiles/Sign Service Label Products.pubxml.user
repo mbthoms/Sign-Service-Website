@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAvmkg/b+pqkuXvtUmDNMfZwAAAAACAAAAAAAQZgAAAAEAACAAAADlvAMo7GlFHZgkudiDRsO8An9N95J2gAfW3yzSRZq5cQAAAAAOgAAAAAIAACAAAADM9ga+dSTJhbKCeNPGc1L3eJDZJXi4ovRBOwQf+dcXgiAAAADM6mp9lxA32WGLCoWypqpvn7gXW208yx/5J2qCp2g2X0AAAAAmWFs6srAMfHmkQYBNVE13UNpYp7AObfQUmwc+pHcI+3gLDl05PtojhpHMO3GztgXokSc/aLT02psQvOAvNGr1</EncryptedPassword>
+    <_PublishTargetUrl>ftp://69.156.240.29/public</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="404.aspx">
+      <publishTime>06/14/2017 20:27:42</publishTime>
+    </File>
+    <File Include="about.aspx">
+      <publishTime>06/14/2017 20:27:52</publishTime>
+    </File>
+    <File Include="admin/admin.Master">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="admin/AdminLoggedIn.Master">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="admin/admin_grid.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="admin/admin_login.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="admin/admin_logout.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="admin_auth.ascx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="auth.ascx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="bin/Sign Service Label Products.dll">
+      <publishTime>06/20/2017 11:54:22</publishTime>
+    </File>
+    <File Include="bin/Sign Service Label Products.pdb">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="contact.aspx">
+      <publishTime>06/14/2017 20:28:02</publishTime>
+    </File>
+    <File Include="css/animate.css">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="css/bootstrap.css">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="css/dropdowns-enhancement.css">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="css/font-awesome.min.css">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="css/global_styles.css">
+      <publishTime>06/20/2017 10:58:04</publishTime>
+    </File>
+    <File Include="css/print/printer_page_styles.css">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="css/slider.css">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/coroplast_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Dealer/DealerLogin.Master">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Dealer/dealer_faq.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Dealer/dealer_index.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="dealer/digitally_printed_magnets_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/digitally_printed_vehicle_magnet_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Dealer/digital_vinyl_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/floor_graphics_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/fridge_magnet_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/hard_surface_mouse_pad_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/index.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/matte_velvet_polycarbonate_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/parking_hang_tag_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/parking_hang_tag_two_sided_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Dealer/polyester_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/reflective_vinyl_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Dealer/single_sided_window_decal_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/solid_silver_foil_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/two_sided_coroplast_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/two_sided_window_decals_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="dealer/vinyl_lettered_vehicle_magnet_pricing.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Dealer/vinyl_pricing.aspx">
+      <publishTime>06/20/2017 11:52:32</publishTime>
+    </File>
+    <File Include="equipment.aspx">
+      <publishTime>06/14/2017 20:28:15</publishTime>
+    </File>
+    <File Include="error.aspx">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="ErrorPage.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.eot">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.svg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.ttf">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="fonts/fontawesome-webfont.woff2">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="fonts/FontAwesome.otf">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/about/signservice_door.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/dealer/vinyl_pricing/yellow_vinyl_backing.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/equipment/diecutting_press.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/equipment/printer_ink.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/heros/index-hero.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/icons/favicon-32x32.png">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/index/danger_high_voltage.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/index/index-img.png">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/index/stewarttown.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/index/stewarttown_school_meg.jpg">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="img/products/clear_decal.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/corvette_decal.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/door-mag.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/faceplate.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/flower_meg.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/gold_label.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/hi_tack.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/parking_hang_tag.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/silver_label.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/stewarttown_school_meg.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/tattle_tale.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/truck_meg.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/vinyl_thumb.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/products/window_decal.jpg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="img/sign_service_logo.svg">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>06/14/2017 20:27:32</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="js/dropdowns-enhancement.js">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>06/14/2017 20:29:12</publishTime>
+    </File>
+    <File Include="logout.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Models/Sign Service Label Products.edmx.diagram">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="products.aspx">
+      <publishTime>06/14/2017 20:36:43</publishTime>
+    </File>
+    <File Include="Public.Master">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="stocks.aspx">
+      <publishTime>10/21/2016 08:43:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>06/15/2017 13:43:04</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

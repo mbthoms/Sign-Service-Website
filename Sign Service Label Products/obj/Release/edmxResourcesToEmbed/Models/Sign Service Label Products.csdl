@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="g4g_signservicelabelproducts_comModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="admin_users">
+    <Key>
+      <PropertyRef Name="admin_user_id" />
+    </Key>
+    <Property Name="admin_user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="admin_username" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="admin_password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="admin_salt" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="public_users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="contact_name" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="company_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="fax" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="address_line_1" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="address_line_2" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="city" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="state_province" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="zip_postal" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="password" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="salt" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="DefaultConnection1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="admin_users" EntityType="Self.admin_users" />
+    <EntitySet Name="public_users" EntityType="Self.public_users" />
+  </EntityContainer>
+</Schema>
